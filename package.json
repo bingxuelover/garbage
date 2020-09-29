@@ -1,0 +1,27 @@
+{
+  "name": "garbage-classify",
+  "version": "1.0.0",
+  "description": "garbege classify by nodejs",
+  "main": "index.js",
+  "author": "sophie",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel app/index.html",
+    "output": "serve output --cors",
+    "run": "node train"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^2.4.0",
+    "@tensorflow/tfjs-node": "^2.4.0",
+    "antd": "^4.6.4",
+    "fs": "^0.0.1-security",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
+  "browserslist": [
+    "last 1 chrome version"
+  ]
+}
